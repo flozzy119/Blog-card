@@ -84,4 +84,10 @@ body {
 .name {
   font-weight: 600;
   font-size: 0.95rem;
+
+}footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: auto;
+  color: hsl(228, 45%, 44%);
 }
