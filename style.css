@@ -1,24 +1,26 @@
+/* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap');
 
+/* Reset default styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Yellow background & center card */
 body {
-  font-family: 'Figtree', sans-serif;
   background-color: hsl(47, 88%, 63%);
+  font-family: 'Figtree', sans-serif;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
-/* Card styling */
+/* Card design */
 .card {
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   border: 1px solid black;
   box-shadow: 8px 8px 0px black;
   border-radius: 15px;
@@ -26,14 +28,14 @@ body {
   padding: 20px;
 }
 
-/* Image */
+/* Image styling */
 .card-image {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
-/* Tag */
+/* Yellow tag */
 .tag {
   background-color: hsl(47, 88%, 63%);
   color: black;
@@ -67,7 +69,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Author */
+/* Author section */
 .author {
   display: flex;
   align-items: center;
@@ -82,15 +84,4 @@ body {
 .name {
   font-weight: 600;
   font-size: 0.95rem;
-}
-
-/* Attribution */
-.attribution {
-  font-size: 0.8rem;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
