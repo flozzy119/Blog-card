@@ -13,11 +13,12 @@
 body {
   background-color: hsl(47, 88%, 63%);
   font-family: 'Figtree', sans-serif;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+ 
   
 }
 
@@ -99,6 +100,7 @@ body {
   color: hsl(228, 45%, 44%);
   padding-bottom: 10px;
 }
+
 
 
 
