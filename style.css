@@ -1,4 +1,5 @@
 /* Import font */
+
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap');
 
 /* Reset default styles */
@@ -25,8 +26,7 @@ body {
   border: 1px solid black;
   box-shadow: 8px 8px 0px black;
   border-radius: 15px;
-  width: 350px;
-  padding: 20px;
+  width: 350px
   margin-bottom:50px;
 }
 
@@ -94,4 +94,5 @@ body {
   color: hsl(228, 45%, 44%);
   padding-bottom: 10px;
 }
+
 
